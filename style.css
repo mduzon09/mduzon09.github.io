@@ -1,21 +1,37 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background-image: url(background-blue.jpg);
-  background-size:cover;
+  background-image: url(background-snowflake.jpg);
+  /*background-size:cover;*/
   background-repeat: repeat;
 }
 #wrapper {
-  width: 600px;
+  width: 800px;
   margin: 0 auto 0 auto;
   padding:10px 20px 20px 20px;
   background-color:#e5f6ff;
 }
 /*Formatting for headers*/
 h1, h2, h3 {
-	color:#990099;
+	color:#1E55FA;
+	text-align: center;
 }
-#summary {
+.subheader {
+	color:#505052;
+}
+.skitrip {
+
+}
+.excited {
+	color:#5B05B0;
+	font-style: italic;
+	text-align: center;
+}
+#coverphoto {
+	border-style:groove;
+	border-width:10px;
+	border-color:#006499;
+}#photoalbum {
 	color:orange;
 	font-style:italic;
 	text-align:center;
@@ -23,11 +39,7 @@ h1, h2, h3 {
 .unicorns {
 	color:red;
 }
-#profilepic {
-	border-style:groove;
-	border-width:10px;
-	border-color:#006499;
-}
+
 /*The lower formatting trumps those written before it
 The # means it is an ID
 The . means it is a class*/
