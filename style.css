@@ -1,43 +1,65 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
-  font-weight: 300;
   background-image: url(background-snowflake.jpg);
-  /*background-size:cover;*/
+  background-size: 300px;
   background-repeat: repeat;
 }
 #wrapper {
   width: 800px;
   margin: 0 auto 0 auto;
-  padding:10px 20px 20px 20px;
+  padding: 10px 20px 20px 20px;
   background-color:#e5f6ff;
 }
 /*Formatting for headers*/
-h1, h2, h3 {
-	color:#1E55FA;
+h1 {
+	color:#0C31AB;
+	font-size:46px;
 	text-align: center;
+	text-shadow: 2px 2px 2px #8A8E9C;
+	line-height:20px;
 }
-.subheader {
-	color:#505052;
+h2 {
+	color:#0C31AB;
+	font-size: 38px;
+	text-align: center;
+	font-variant:small-caps;
+	line-height:5px;
 }
-.skitrip {
-
-}
-.excited {
-	color:#5B05B0;
+h3 {
+	color:#8A8E9C;
+	font-size: 18px;
+	font-weight:lighter;
 	font-style: italic;
 	text-align: center;
+	line-height:10px;
+}
+.subheader {
+	color:#0C31AB;
+	font-size: 20px;
+	text-align: center;
+	text-shadow: 1px 1px 1px #8A8E9C;
+	line-height:70%;
+}
+.excited {
+	color:#8019CF;
+	font-size:20px;
+	font-style: italic;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
 }
 #coverphoto {
-	border-style:groove;
-	border-width:10px;
-	border-color:#006499;
+	border-style:inset;
+	border-width:5px;
+	border-color:#8A8E9C;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
 }#photoalbum {
-	color:orange;
+	color:#8019CF;
 	font-style:italic;
 	text-align:center;
-}
-.unicorns {
-	color:red;
 }
 
 /*The lower formatting trumps those written before it
