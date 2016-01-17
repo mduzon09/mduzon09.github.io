@@ -60,26 +60,3 @@ h3 {
 	font-style:italic;
 	text-align:center;
 }
-h1 {
-	color:red;
-}
-.navbar-inverse {
-    background-image:url(https://tippingpoint.org/-/img/header-bg.png);
-    border:none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 124px;
-}
-.container {
-	margin-top:124px;
-}
-.navbar-nav {
-	text-transform: uppercase;
-    text-decoration: none;
-    color: #00ab69;
-    margin: 0 0 0 38px;
-    text-shadow: 0 1px 0 #fff;
-    font-family: 'Oswald', sans-serif;	
-}

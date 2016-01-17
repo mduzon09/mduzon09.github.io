@@ -13,7 +13,6 @@ body {
 h1 {
 	color:#0C31AB;
 	font-size:46px;
-	text-align: center;
 	text-shadow: 2px 2px 2px #8A8E9C;
 	line-height:20px;
 }
@@ -31,37 +30,6 @@ h3 {
 	font-style: italic;
 	text-align: center;
 	line-height:10px;
-}
-.subheader {
-	color:#0C31AB;
-	font-size: 20px;
-	text-align: center;
-	text-shadow: 1px 1px 1px #8A8E9C;
-	line-height:70%;
-}
-.excited {
-	color:#8019CF;
-	font-size:20px;
-	font-style: italic;
-	text-align: center;
-	display: block;
-	margin-left: auto;
-    margin-right: auto;
-}
-#coverphoto {
-	border-style:inset;
-	border-width:5px;
-	border-color:#8A8E9C;
-	display: block;
-	margin-left: auto;
-    margin-right: auto;
-}#photoalbum {
-	color:#8019CF;
-	font-style:italic;
-	text-align:center;
-}
-h1 {
-	color:red;
 }
 .navbar-inverse {
     background-image:url(https://tippingpoint.org/-/img/header-bg.png);
