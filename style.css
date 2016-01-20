@@ -1,6 +1,5 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
-  background-image: url(images/background-snowflake.jpg);
   background-size: 300px;
   background-repeat: repeat;
 }
@@ -17,69 +16,4 @@ h1 {
 	text-shadow: 2px 2px 2px #8A8E9C;
 	line-height:20px;
 }
-h2 {
-	color:#0C31AB;
-	font-size: 38px;
-	text-align: center;
-	font-variant:small-caps;
-	line-height:5px;
-}
-h3 {
-	color:#8A8E9C;
-	font-size: 18px;
-	font-weight:lighter;
-	font-style: italic;
-	text-align: center;
-	line-height:10px;
-}
-.subheader {
-	color:#0C31AB;
-	font-size: 20px;
-	text-align: center;
-	text-shadow: 1px 1px 1px #8A8E9C;
-	line-height:70%;
-}
-.excited {
-	color:#8019CF;
-	font-size:20px;
-	font-style: italic;
-	text-align: center;
-	display: block;
-	margin-left: auto;
-    margin-right: auto;
-}
-#coverphoto {
-	border-style:inset;
-	border-width:5px;
-	border-color:#8A8E9C;
-	display: block;
-	margin-left: auto;
-    margin-right: auto;
-}#photoalbum {
-	color:#8019CF;
-	font-style:italic;
-	text-align:center;
-}
-h1 {
-	color:red;
-}
-.navbar-inverse {
-    background-image:url(https://tippingpoint.org/-/img/header-bg.png);
-    border:none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 124px;
-}
-.container {
-	margin-top:124px;
-}
-.navbar-nav {
-	text-transform: uppercase;
-    text-decoration: none;
-    color: #00ab69;
-    margin: 0 0 0 38px;
-    text-shadow: 0 1px 0 #fff;
-    font-family: 'Oswald', sans-serif;	
-}
+
