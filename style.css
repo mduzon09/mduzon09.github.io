@@ -1,19 +1,84 @@
 body {
-  font-family: 'helvetica neue', arial, sans-serif;
-  background-size: 300px;
-  background-repeat: repeat;
-}
-#wrapper {
-  width: 800px;
-  margin: 0 auto 0 auto;
-  padding: 10px 20px 20px 20px;
-  background-color:#e5f6ff;
+  font-family: 'Oxygen', sans-serif;
+  font-size:16px;
+  color:#474745;
+  background-color:#85B3F2;
 }
 h1 {
-	color:#0C31AB;
-	font-size:46px;
-	text-align: center;
-	text-shadow: 2px 2px 2px #8A8E9C;
-	line-height:20px;
+  font-family: 'Satisfy', cursive;
+  color:#2D4D7A;
+  font-size:72px;
+}
+h2 {
+  color:#2D4D7A;
+  font-size: 28px;
 }
 
+/*CSS styles for navigation bar*/
+.nav {
+  color:#2D4D7A;
+}
+.navbar-inverse {
+  border:none;
+  background-color:transparent;
+}
+.navbar-nav .navbar-right .navbar-custom{
+  text-decoration: none;
+  margin: 0 0 0 50px;
+  color:#2D4D7A;
+  text-shadow: 0 1px 0 #fff;
+}
+
+/*CSS styles for homepage*/
+.home {
+  background-image:url(images/porto.jpg);
+  background-size: 100%;
+  background-repeat:no-repeat;
+}
+#homebox {
+  text-align:center;
+  max-width:600px;
+  padding:20 20 20 20px;
+  border:1px #85B3F2;
+  border-radius: 25px;
+  background-color:#85B3F2;
+}
+#h2_home {
+  line-height:50px;
+}
+.professor {
+  text-align: center;
+  border-radius: 25px;
+  background-color:#fff;
+  padding-top:10px;
+}
+.space {
+  padding:100px;
+}
+
+.btn-home {
+  background-color:#FCCDB6;
+  font-weight:700;
+}
+
+/*CSS styles for music page*/
+#musicjumbotron {
+  background-image:url(images/spellingbee.jpg);
+  background-size: cover;
+  min-height: 600px;
+  color:#fff;
+  text-align: center;
+  padding-top: 3px;
+  margin:0 0 0 0px;
+}
+
+/*CSS styles for career page*/
+#careerjumbotron {
+  background-image:url(images/kwest.jpg);
+  background-size: cover;
+  min-height: 500px;
+  color:#fff;
+  text-align:center;
+  padding-top: 3px;
+  margin:0 0 0 0px;
+}
