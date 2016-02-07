@@ -31,7 +31,7 @@ h2 {
 
 /*CSS styles for homepage*/
 .home {
-  background-image:url(images/porto.jpg);
+  background-image:url(images/porto.JPG);
   background-size: 100%;
   background-repeat:no-repeat;
 }
@@ -74,7 +74,7 @@ h2 {
 
 /*CSS styles for career page*/
 #careerjumbotron {
-  background-image:url(images/kwest.jpg);
+  background-image:url(images/kwest.JPG);
   background-size: cover;
   min-height: 500px;
   color:#fff;
