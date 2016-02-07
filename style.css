@@ -2,7 +2,7 @@ body {
   font-family: 'Oxygen', sans-serif;
   font-size:16px;
   color:#474745;
-  background-color:#A2C5F5;
+  background-color:#C7DFFF;
 }
 h1 {
   font-family: 'Satisfy', cursive;
@@ -41,7 +41,7 @@ h2 {
   padding:20 20 20 20px;
   border:1px #85B3F2;
   border-radius: 25px;
-  background-color:#A2C5F5;
+  background-color:#C7DFFF;
 }
 #h2_home {
   line-height:50px;
@@ -81,4 +81,9 @@ h2 {
   text-align:center;
   padding-top: 3px;
   margin:0 0 0 0px;
+}
+
+/*CSS styles for contact page*/
+.center {
+  text-align:center;
 }
