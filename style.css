@@ -2,7 +2,7 @@ body {
   font-family: 'Oxygen', sans-serif;
   font-size:16px;
   color:#474745;
-  background-color:#85B3F2;
+  background-color:#A2C5F5;
 }
 h1 {
   font-family: 'Satisfy', cursive;
@@ -41,7 +41,7 @@ h2 {
   padding:20 20 20 20px;
   border:1px #85B3F2;
   border-radius: 25px;
-  background-color:#85B3F2;
+  background-color:#A2C5F5;
 }
 #h2_home {
   line-height:50px;
