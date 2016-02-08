@@ -28,6 +28,9 @@ h2 {
   color:#2D4D7A;
   text-shadow: 0 1px 0 #fff;
 }
+.navbar-inverse .navbar-nav>li>a {
+    color: #2D4D7A;
+}
 
 /*CSS styles for homepage*/
 .home {
@@ -70,6 +73,9 @@ h2 {
   text-align: center;
   padding-top: 3px;
   margin:0 0 0 0px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  border-top:1px solid #2D4D7A;
 }
 
 /*CSS styles for career page*/
